@@ -1,0 +1,46 @@
+PROGRAM Newton Second Law:
+    STORE 
+        Mass = 600
+    STORE
+        Speed = 2
+    Newton = Mass * Speed
+    DISPLAY "Newton"
+END.
+
+
+PROGRAM Tahun Kabisat:
+    Dim year, r1, r2, r3 As integer
+    year = InputBox("enter year")
+    r1 = year Mod 100
+    If r1 = 0 Then
+    r2 = year Mod 400
+    If r2 = 0 Then
+    MsgBox ("leap year")
+    Else
+    MsgBox ("Not a leap year")
+    End If 
+    Else
+    r3 = year Mod 4 
+    If r3 = 0 Then
+    MsgBox ("leap year")
+    Else 
+    MsgBox ("Not a leap year")
+    End If
+    endif
+END.
+
+
+PROGRAM Laundry Day
+    Count "baju"
+    IF "baju" = 20
+        DO "cuci baju" 
+END.
+
+
+PROGRAM Periksa Kuku
+    STORE "Murid" = 40
+    IF "panjang"
+        DO "punish"
+    ELSE 
+        DO "compliment"
+END.
